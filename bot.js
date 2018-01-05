@@ -55,11 +55,11 @@ client.on("message", async message => {
           const xu = new Decimal(in_usd);
           const in_eur = coin['PRICE_EUR'];
           const xe = new Decimal(in_eur);
-          const ch24 = coin['CH24'];
+          const ch1h = coin['CH1H'];
           
       message.channel.send(`${message.author}`
-          + "\n" + "**#" + rank + "** || **[" + sym + "-USD] **|| **" + xu.toFixed(1) + "$** || ** " + ch24 + "% **"
-          + "\n" + "**#" + rank + "** || **[" + sym + "-EUR]  **|| **" + xe.toFixed(1) + "€** || ** " + ch24 + "% **");
+          + "\n" + "**#" + rank + "** || **[" + sym + "-USD] **|| **" + xu.toFixed(1) + "$** || ** " + ch1h + "% **"
+          + "\n" + "**#" + rank + "** || **[" + sym + "-EUR]  **|| **" + xe.toFixed(1) + "€** || ** " + ch1h + "% **");
       });
   };
   if(command === "eth") {
@@ -71,15 +71,15 @@ client.on("message", async message => {
           const in_usd = coin['PRICE_USD'];
           const in_eur = coin['PRICE_EUR'];
           const in_btc = coin['PRICE_BTC'];
-          const ch24 = coin['CH24'];
+          const ch1h = coin['CH1H'];
           
           const exu = new Decimal(in_usd);
           const exe = new Decimal(in_eur);
           
       message.channel.send(`${message.author}`
-          + "\n" + "**#" + rank + "** || **[" + sym + "-USD] **|| **" + exu.toFixed(1) + "$** || ** " + ch24 + "% **"
-          + "\n" + "**#" + rank + "** || **[" + sym + "-EUR]  **|| **" + exe.toFixed(1) + "€** || ** " + ch24 + "% **"
-          + "\n" + "**#" + rank + "** || **[" + sym + "-BTC]  **|| **" + in_btc + "** || ** " + ch24 + "% **");
+          + "\n" + "**#" + rank + "** || **[" + sym + "-USD] **|| **" + exu.toFixed(1) + "$** || ** " + ch1h + "% **"
+          + "\n" + "**#" + rank + "** || **[" + sym + "-EUR]  **|| **" + exe.toFixed(1) + "€** || ** " + ch1h + "% **"
+          + "\n" + "**#" + rank + "** || **[" + sym + "-BTC]  **|| **" + in_btc + "** || ** " + ch1h + "% **");
       });
   };
   if(command === "xmr") {
@@ -91,15 +91,15 @@ client.on("message", async message => {
           const in_usd = coin['PRICE_USD'];
           const in_eur = coin['PRICE_EUR'];
           const in_btc = coin['PRICE_BTC'];
-          const ch24 = coin['CH24'];
+          const ch1h = coin['CH1H'];
           
           const exu = new Decimal(in_usd);
           const exe = new Decimal(in_eur);
           
       message.channel.send(`${message.author}`
-          + "\n" + "**#" + rank + "** || **[" + sym + "-USD] **|| **" + exu.toFixed(1) + "$** || ** " + ch24 + "% **"
-          + "\n" + "**#" + rank + "** || **[" + sym + "-EUR]  **|| **" + exe.toFixed(1) + "€** || ** " + ch24 + "% **"
-          + "\n" + "**#" + rank + "** || **[" + sym + "-BTC]  **|| **" + in_btc + "** || ** " + ch24 + "% **");
+          + "\n" + "**#" + rank + "** || **[" + sym + "-USD] **|| **" + exu.toFixed(1) + "$** || ** " + ch1h + "% **"
+          + "\n" + "**#" + rank + "** || **[" + sym + "-EUR]  **|| **" + exe.toFixed(1) + "€** || ** " + ch1h + "% **"
+          + "\n" + "**#" + rank + "** || **[" + sym + "-BTC]  **|| **" + in_btc + "** || ** " + ch1h + "% **");
       });
   };
   if(command === "trx") {
@@ -111,15 +111,15 @@ client.on("message", async message => {
           const in_usd = coin['PRICE_USD'];
           const in_eur = coin['PRICE_EUR'];
           const in_btc = coin['PRICE_BTC'];
-          const ch24 = coin['CH24'];
+          const ch1h = coin['CH1H'];
           
           const exu = new Decimal(in_usd);
           const exe = new Decimal(in_eur);
           
       message.channel.send(`${message.author}`
-          + "\n" + "**#" + rank + "** || **[" + sym + "-USD] **|| **" + exu.toFixed(7) + "$** || ** " + ch24 + "% **"
-          + "\n" + "**#" + rank + "** || **[" + sym + "-EUR]  **|| **" + exe.toFixed(7) + "€** || ** " + ch24 + "% **"
-          + "\n" + "**#" + rank + "** || **[" + sym + "-BTC]  **|| **" + in_btc + "** || ** " + ch24 + "% **");
+          + "\n" + "**#" + rank + "** || **[" + sym + "-USD] **|| **" + exu.toFixed(7) + "$** || ** " + ch1h + "% **"
+          + "\n" + "**#" + rank + "** || **[" + sym + "-EUR]  **|| **" + exe.toFixed(7) + "€** || ** " + ch1h + "% **"
+          + "\n" + "**#" + rank + "** || **[" + sym + "-BTC]  **|| **" + in_btc + "** || ** " + ch1h + "% **");
       });
   };
   if(command === "xrc") {
@@ -131,15 +131,15 @@ client.on("message", async message => {
           const in_usd = coin['PRICE_USD'];
           const in_eur = coin['PRICE_EUR'];
           const in_btc = coin['PRICE_BTC'];
-          const ch24 = coin['CH24'];
+          const ch1h = coin['CH1H'];
           
           const exu = new Decimal(in_usd);
           const exe = new Decimal(in_eur);
           
       message.channel.send(`${message.author}`
-          + "\n" + "**#" + rank + "** || **[" + sym + "-USD] **|| **" + exu.toFixed(7) + "$** || ** " + ch24 + "% **"
-          + "\n" + "**#" + rank + "** || **[" + sym + "-EUR]  **|| **" + exe.toFixed(7) + "€** || ** " + ch24 + "% **"
-          + "\n" + "**#" + rank + "** || **[" + sym + "-BTC]  **|| **" + in_btc + "** || ** " + ch24 + "% **");
+          + "\n" + "**#" + rank + "** || **[" + sym + "-USD] **|| **" + exu.toFixed(7) + "$** || ** " + ch1h + "% **"
+          + "\n" + "**#" + rank + "** || **[" + sym + "-EUR]  **|| **" + exe.toFixed(7) + "€** || ** " + ch1h + "% **"
+          + "\n" + "**#" + rank + "** || **[" + sym + "-BTC]  **|| **" + in_btc + "** || ** " + ch1h + "% **");
       });
   };
   if(command === "xrp") {
@@ -151,15 +151,15 @@ client.on("message", async message => {
           const in_usd = coin['PRICE_USD'];
           const in_eur = coin['PRICE_EUR'];
           const in_btc = coin['PRICE_BTC'];
-          const ch24 = coin['CH24'];
+          const ch1h = coin['CH1H'];
           
           const exu = new Decimal(in_usd);
           const exe = new Decimal(in_eur);
           
       message.channel.send(`${message.author}`
-          + "\n" + "**#" + rank + "** || **[" + sym + "-USD] **|| **" + exu.toFixed(7) + "$** || ** " + ch24 + "% **"
-          + "\n" + "**#" + rank + "** || **[" + sym + "-EUR]  **|| **" + exe.toFixed(7) + "€** || ** " + ch24 + "% **"
-          + "\n" + "**#" + rank + "** || **[" + sym + "-BTC]  **|| **" + in_btc + "** || ** " + ch24 + "% **");
+          + "\n" + "**#" + rank + "** || **[" + sym + "-USD] **|| **" + exu.toFixed(7) + "$** || ** " + ch1h + "% **"
+          + "\n" + "**#" + rank + "** || **[" + sym + "-EUR]  **|| **" + exe.toFixed(7) + "€** || ** " + ch1h + "% **"
+          + "\n" + "**#" + rank + "** || **[" + sym + "-BTC]  **|| **" + in_btc + "** || ** " + ch1h + "% **");
       });
   };
   if(command === "xvg") {
@@ -171,15 +171,15 @@ client.on("message", async message => {
           const in_usd = coin['PRICE_USD'];
           const in_eur = coin['PRICE_EUR'];
           const in_btc = coin['PRICE_BTC'];
-          const ch24 = coin['CH24'];
+          const ch1h = coin['CH1H'];
           
           const exu = new Decimal(in_usd);
           const exe = new Decimal(in_eur);
           
       message.channel.send(`${message.author}`
-          + "\n" + "**#" + rank + "** || **[" + sym + "-USD] **|| **" + exu.toFixed(7) + "$** || ** " + ch24 + "% **"
-          + "\n" + "**#" + rank + "** || **[" + sym + "-EUR]  **|| **" + exe.toFixed(7) + "€** || ** " + ch24 + "% **"
-          + "\n" + "**#" + rank + "** || **[" + sym + "-BTC]  **|| **" + in_btc + "** || ** " + ch24 + "% **");
+          + "\n" + "**#" + rank + "** || **[" + sym + "-USD] **|| **" + exu.toFixed(7) + "$** || ** " + ch1h + "% **"
+          + "\n" + "**#" + rank + "** || **[" + sym + "-EUR]  **|| **" + exe.toFixed(7) + "€** || ** " + ch1h + "% **"
+          + "\n" + "**#" + rank + "** || **[" + sym + "-BTC]  **|| **" + in_btc + "** || ** " + ch1h + "% **");
       });
   };
   if(command === "krb") {
@@ -191,15 +191,15 @@ client.on("message", async message => {
           const in_usd = coin['PRICE_USD'];
           const in_eur = coin['PRICE_EUR'];
           const in_btc = coin['PRICE_BTC'];
-          const ch24 = coin['CH24'];
+          const ch1h = coin['CH1H'];
           
           const exu = new Decimal(in_usd);
           const exe = new Decimal(in_eur);
           
       message.channel.send(`${message.author}`
-          + "\n" + "**#" + rank + "** || **[" + sym + "-USD] **|| **" + exu.toFixed(7) + "$** || ** " + ch24 + "% **"
-          + "\n" + "**#" + rank + "** || **[" + sym + "-EUR]  **|| **" + exe.toFixed(7) + "€** || ** " + ch24 + "% **"
-          + "\n" + "**#" + rank + "** || **[" + sym + "-BTC]  **|| **" + in_btc + "** || ** " + ch24 + "% **");
+          + "\n" + "**#" + rank + "** || **[" + sym + "-USD] **|| **" + exu.toFixed(7) + "$** || ** " + ch1h + "% **"
+          + "\n" + "**#" + rank + "** || **[" + sym + "-EUR]  **|| **" + exe.toFixed(7) + "€** || ** " + ch1h + "% **"
+          + "\n" + "**#" + rank + "** || **[" + sym + "-BTC]  **|| **" + in_btc + "** || ** " + ch1h + "% **");
       });
   };
   // ==========================================================
