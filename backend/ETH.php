@@ -14,7 +14,8 @@ $json_array = array(
             "SYMBOL" => "{$dec_eth['0']['symbol']}",
             "PRICE_USD" => "{$dec_eth['0']['price_usd']}",
             "PRICE_EUR" => "{$dec_eth['0']['price_eur']}",
-            "CH24" => "{$dec_eth['0']['percent_change_24h']}"
+            "PRICE_BTC" => "{$dec_eth['0']['price_btc']}",
+            "CH1H" => "{$dec_eth['0']['percent_change_1h']}"
             // =====================================================
             // =====================================================
         // =====================================================
