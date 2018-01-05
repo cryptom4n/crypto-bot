@@ -4,3 +4,4 @@ npm install --save request
 #npm install --save http
 #npm install --save ws
 npm install --save discord.js
+npm install --save decimal.js
