@@ -1,7 +1,7 @@
 // =================================================
 // | MAY THIS BOT ISN'T WELL CODED, DON'T BLAME PLEASE. I'M NOT A NodeJS DEVELOPER!.
 // | CREATED BY  : https://github.com/theraw
-// | CREATED FOR : https://github.com/DopeCloud
+// | CREATED FOR : https://github.com/cryptom4n
 // =================================================
 var CryptoBot = require("./libs/coincap.js");
 const Discord = require("discord.js");
