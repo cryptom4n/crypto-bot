@@ -1,20 +1,20 @@
 <?php
 header("Content-Type: application/json; charset=UTF-8");
 require('lib.php');
-$btc = cryptobot("bitcoin");
-$dec_btc = json_decode($btc, true);
+$xmr = cryptobot("monero");
+$dec_xmr = json_decode($xmr, true);
 $json_array = array(
         // =====================================================
         // /////////////////////////////////////////////////////
         // =====================================================
             // =====================================================
             // =====================================================
-            "RANK" => "{$dec_btc['0']['rank']}",
-            "NAME" => "{$dec_btc['0']['name']}",
-            "SYMBOL" => "{$dec_btc['0']['symbol']}",
-            "PRICE_USD" => "{$dec_btc['0']['price_usd']}",
-            "PRICE_EUR" => "{$dec_btc['0']['price_eur']}",
-            "CH24" => "{$dec_btc['0']['percent_change_24h']}"
+            "RANK" => "{$dec_xmr['0']['rank']}",
+            "NAME" => "{$dec_xmr['0']['name']}",
+            "SYMBOL" => "{$dec_xmr['0']['symbol']}",
+            "PRICE_USD" => "{$dec_xmr['0']['price_usd']}",
+            "PRICE_EUR" => "{$dec_xmr['0']['price_eur']}",
+            "CH24" => "{$dec_xmr['0']['percent_change_24h']}"
             // =====================================================
             // =====================================================
         // =====================================================
