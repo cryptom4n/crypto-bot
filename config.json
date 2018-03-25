@@ -2,5 +2,5 @@
   "prefix" : "`",
   "token"  : "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "cryptomanAPIKEY" : "XXX-XX-XXX",
-  "apiURL" : "https://api.dopehosting.net/cryptoman"
+  "apiURL" : "https://api.dope.al/crypto/price"
 }
