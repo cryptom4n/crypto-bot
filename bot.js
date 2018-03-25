@@ -47,7 +47,7 @@ client.on("message", async message => {
   // ==========================================================
   if(command === "btc") {
       // message.delete().catch(O_o=>{});
-      CryptoBot.get("BTC", coin => {
+      CryptoBot.get("btc", coin => {
           const rank = coin['RANK'];
           const name = coin['NAME'];
           const sym = coin['SYMBOL'];
@@ -64,7 +64,7 @@ client.on("message", async message => {
   };
   if(command === "eth") {
       // message.delete().catch(O_o=>{});
-      CryptoBot.get("ETH", coin => {
+      CryptoBot.get("eth", coin => {
           const rank = coin['RANK'];
           const name = coin['NAME'];
           const sym = coin['SYMBOL'];
@@ -84,7 +84,7 @@ client.on("message", async message => {
   };
   if(command === "xmr") {
       // message.delete().catch(O_o=>{});
-      CryptoBot.get("XMR", coin => {
+      CryptoBot.get("xmr", coin => {
           const rank = coin['RANK'];
           const name = coin['NAME'];
           const sym = coin['SYMBOL'];
@@ -104,7 +104,7 @@ client.on("message", async message => {
   };
   if(command === "trx") {
       // message.delete().catch(O_o=>{});
-      CryptoBot.get("TRX", coin => {
+      CryptoBot.get("trx", coin => {
           const rank = coin['RANK'];
           const name = coin['NAME'];
           const sym = coin['SYMBOL'];
@@ -124,7 +124,7 @@ client.on("message", async message => {
   };
   if(command === "xrc") {
       // message.delete().catch(O_o=>{});
-      CryptoBot.get("XRC", coin => {
+      CryptoBot.get("xrc", coin => {
           const rank = coin['RANK'];
           const name = coin['NAME'];
           const sym = coin['SYMBOL'];
@@ -144,7 +144,7 @@ client.on("message", async message => {
   };
   if(command === "xrp") {
       // message.delete().catch(O_o=>{});
-      CryptoBot.get("XRP", coin => {
+      CryptoBot.get("xrp", coin => {
           const rank = coin['RANK'];
           const name = coin['NAME'];
           const sym = coin['SYMBOL'];
@@ -164,7 +164,7 @@ client.on("message", async message => {
   };
   if(command === "xvg") {
       // message.delete().catch(O_o=>{});
-      CryptoBot.get("XVG", coin => {
+      CryptoBot.get("xvg", coin => {
           const rank = coin['RANK'];
           const name = coin['NAME'];
           const sym = coin['SYMBOL'];
@@ -184,7 +184,7 @@ client.on("message", async message => {
   };
   if(command === "krb") {
       // message.delete().catch(O_o=>{});
-      CryptoBot.get("KRB", coin => {
+      CryptoBot.get("krb", coin => {
           const rank = coin['RANK'];
           const name = coin['NAME'];
           const sym = coin['SYMBOL'];
